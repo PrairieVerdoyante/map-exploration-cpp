@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Backgrounds">
+      <UniqueIdentifier>{9ace58fc-59ee-4c51-85c3-7848e2c8c157}</UniqueIdentifier>
+      <Extensions>C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\game_project\game_project\Resources\Backgrounds</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Actor">
+      <UniqueIdentifier>{56022f0e-4cf5-4545-8565-3b8150abc989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Actor\Boy">
+      <UniqueIdentifier>{b63c47e7-0f36-473e-af67-2170012cafcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Actor\Boy\SeparateAnim">
+      <UniqueIdentifier>{e523e577-0545-4f14-a892-53f910013502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Actor\Characters">
+      <UniqueIdentifier>{bc7c15dc-8041-4349-af1b-c2fe0098362e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Actor\Characters\EggBoy">
+      <UniqueIdentifier>{696955fe-6b4d-49c8-92b8-9195a6de649b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim">
+      <UniqueIdentifier>{401770fd-4633-428d-ae4f-8136f945d0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Backgrounds\Tilesets">
+      <UniqueIdentifier>{64380988-ca9e-4e29-b2d4-f89168401a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fonts">
+      <UniqueIdentifier>{d9c23880-ca3c-45d4-b7f8-6c794b2da91b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Backpack.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassMap.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Backpack.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassMap.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Diamond.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
+    <ClCompile Include="Diamond.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Backgrounds\Tilesets\Landscape_TilesetField.png">
+      <Filter>Fichiers de ressources\Backgrounds\Tilesets</Filter>
+    </Image>
+    <Image Include="Resources\Backgrounds\Tilesets\Landscape_TilesetFloor.png">
+      <Filter>Fichiers de ressources\Backgrounds\Tilesets</Filter>
+    </Image>
+    <Image Include="Resources\Backgrounds\Tilesets\TilesetNature.png">
+      <Filter>Fichiers de ressources\Backgrounds\Tilesets</Filter>
+    </Image>
+    <Image Include="Resources\Backgrounds\Tilesets\TilesetReliefDetail.png">
+      <Filter>Fichiers de ressources\Backgrounds\Tilesets</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\Faceset.png">
+      <Filter>Fichiers de ressources\Actor\Boy</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SpriteSheet.png">
+      <Filter>Fichiers de ressources\Actor\Boy</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Attack.png">
+      <Filter>Fichiers de ressources\Actor\Boy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Dead.png">
+      <Filter>Fichiers de ressources\Actor\Boy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Idle.png">
+      <Filter>Fichiers de ressources\Actor\Boy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Item.png">
+      <Filter>Fichiers de ressources\Actor\Boy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Jump.png">
+      <Filter>Fichiers de ressources\Actor\Boy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Special1.png">
+      <Filter>Fichiers de ressources\Actor\Boy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Special2.png">
+      <Filter>Fichiers de ressources\Actor\Boy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Walk.png">
+      <Filter>Fichiers de ressources\Actor\Boy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Walk.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Attack.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Dead.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Idle.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Item.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Jump.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Special1.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Special2.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy\SeparateAnim</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\SpriteSheet.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy</Filter>
+    </Image>
+    <Image Include="Resources\Actor\Characters\EggBoy\Faceset.png">
+      <Filter>Fichiers de ressources\Actor\Characters\EggBoy</Filter>
+    </Image>
+    <Image Include="Resources\Backgrounds\Tilesets\Landscape_TilesetWater.png">
+      <Filter>Fichiers de ressources\Backgrounds\Tilesets</Filter>
+    </Image>
+    <Image Include="Resources\Backgrounds\Tilesets\Landscape_TilesetGrass.png">
+      <Filter>Fichiers de ressources\Backgrounds\Tilesets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Fonts\Branda-yolq.ttf">
+      <Filter>Fichiers de ressources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\ChrustyRock-ORLA.ttf">
+      <Filter>Fichiers de ressources\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

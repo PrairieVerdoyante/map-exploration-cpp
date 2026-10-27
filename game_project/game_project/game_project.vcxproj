@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{cb6ebb69-82fd-4c95-a835-2fad53227bef}</ProjectGuid>
+    <RootNamespace>gameproject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="../../HeArc.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\SDL2-2.30.2\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2_ttf-2.21.2\lib\x64;C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2-2.30.2\lib\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2_ttf-2.21.2\include;C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2_image-2.0.1\lib\x64;C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2-2.30.2\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\SDL2-2.30.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\SDL2-2.30.2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2_ttf-2.21.2\include;C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2_image-2.0.1\include;C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2-2.30.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2_ttf.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2_ttf-2.21.2\lib\x64;C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2_image-2.0.1\lib\x64;C:\dev\1242_2_cpp\projet_fil_rouge\cpp_filrouge_iscj_aubry_sarah\SDL2-2.30.2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Backpack.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GrassMap.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Backpack.cpp" />
+    <ClCompile Include="Diamond.cpp" />
+    <ClCompile Include="Diamond.h" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Game.h" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GrassMap.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Tree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Actor\Boy\Faceset.png" />
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Attack.png" />
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Dead.png" />
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Idle.png" />
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Item.png" />
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Jump.png" />
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Special1.png" />
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Special2.png" />
+    <Image Include="Resources\Actor\Boy\SeparateAnim\Walk.png" />
+    <Image Include="Resources\Actor\Boy\SpriteSheet.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\Faceset.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Attack.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Dead.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Idle.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Item.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Jump.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Special1.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Special2.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SeparateAnim\Walk.png" />
+    <Image Include="Resources\Actor\Characters\EggBoy\SpriteSheet.png" />
+    <Image Include="Resources\Backgrounds\Tilesets\Landscape_TilesetField.png" />
+    <Image Include="Resources\Backgrounds\Tilesets\Landscape_TilesetFloor.png" />
+    <Image Include="Resources\Backgrounds\Tilesets\Landscape_TilesetGrass.png" />
+    <Image Include="Resources\Backgrounds\Tilesets\Landscape_TilesetWater.png" />
+    <Image Include="Resources\Backgrounds\Tilesets\TilesetNature.png" />
+    <Image Include="Resources\Backgrounds\Tilesets\TilesetReliefDetail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Fonts\Branda-yolq.ttf" />
+    <Font Include="Resources\Fonts\ChrustyRock-ORLA.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
